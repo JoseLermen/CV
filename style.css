@@ -22,10 +22,43 @@ nav li{
 #inicio{
     background-color: #0d0129;
     color: white;
+    height: 50vmin;
+}
+
+#inicio div{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 5%
+}
+
+#inicio #apresentacao{
+    display: inline-block;
 }
 
 #descricao{
     background-color: white;
     color: black;
     text-align: center;
+}
+
+#educacao{
+    background-color: black;
+    color: white;
+}
+
+#educacao h2{
+    text-align: center;
+}
+
+#educacao div{
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+#educacao p{
+    display: inline-block;
 }
