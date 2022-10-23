@@ -1,6 +1,11 @@
 html{
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 10vmin;
+}
+
+h2{
+    text-align: center;
 }
 
 header{
@@ -20,15 +25,14 @@ nav li{
 }
 
 #inicio{
-    background-color: #0d0129;
-    color: white;
-    height: 50vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
 }
 
 #inicio div{
     display: inline-flex;
-    justify-content: center;
-    align-content: center;
     margin: 0 5%
 }
 
@@ -43,22 +47,70 @@ nav li{
 }
 
 #educacao{
-    background-color: black;
-    color: white;
-}
-
-#educacao h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     text-align: center;
 }
 
-#educacao div{
-    display: inline-flex;
-    align-content: center;
-    justify-content: center;
-    width: 100%;
-    margin: 0;
+
+#educacao li{
+    display: block;
+    text-align: center;
 }
 
-#educacao p{
-    display: inline-block;
+
+#habilidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
+
+#habilidades li{
+    display: block;
+    text-align: center;
+}
+
+#experiencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#experiencias li{
+    display: block;
+}
+
+#contato{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    
+}
+
+#contato div{
+   margin: auto;
+   max-width: 100%;
+   text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
