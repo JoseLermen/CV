@@ -1,7 +1,12 @@
 html{
     font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0 10vmin;
+    
+}
+
+main{
+    
 }
 
 h2{
@@ -13,7 +18,7 @@ header{
     align-items: center;
     justify-content: center;
     width: 100%;
-    border-bottom: 0.5vmin solid black;
+    border-bottom: 0.2vmin solid black;
 }
 
 header h1{
@@ -32,9 +37,12 @@ nav li{
 }
 
 #inicio div{
-    display: inline-flex;
-    margin: 0 5%
-}
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+    
+     
+ }
 
 #inicio #apresentacao{
     display: inline-block;
@@ -47,41 +55,48 @@ nav li{
 }
 
 #educacao{
-    display: flex;
-    flex-direction: row;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+#educacao div{
+    margin: 0 5px;
+    text-align: center;
+    background-color: #EFF1F3;
+    align-content: center;
     justify-content: center;
-    text-align: center;
-}
-
-
-#educacao li{
-    display: block;
-    text-align: center;
-}
+   
+    
+ }
 
 
 #habilidades{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
 }
 
-#habilidades li{
-    display: block;
+
+#habilidades div{
+    margin: 0 5px;
     text-align: center;
-}
+    background-color: #EFF1F3;
+    align-content: center;
+    justify-content: center;
+ }
 
 #experiencias{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    display: grid;
+    grid-template-rows: auto;
 }
 
-#experiencias li{
-    display: block;
-}
+#experiencias div{
+    margin: 5px 0px;
+    text-align: center;
+    background-color: #EFF1F3;
+ }
+
 
 #contato{
     display: flex;
@@ -94,7 +109,7 @@ nav li{
    margin: auto;
    max-width: 100%;
    text-align: center;
-    
+   background-color: #EFF1F3;
 }
 
 
