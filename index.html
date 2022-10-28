@@ -7,9 +7,34 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;700&display=swap" rel="stylesheet">
-        
         <title>CV - José Arthur Salgueiro Lermen</title>
     </head>
+
+    
+<div id="myNav" class="overlay">
+
+   
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+    <!-- Overlay content -->
+    <div class="overlay-content">
+        
+        <a class="intro" onclick="closeNav()">Início</a>
+        <a class="desc" onclick="closeNav()">Descrição</a>
+        <a class="edu">Educação</a>
+        <a class="habi">Habilidades</a>
+        <a class="exp">Experiências</a>
+        <a class="cont">Contato</a>
+        
+    </div>
+  
+  </div>
+  
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span onclick="openNav()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+  </svg></span>
+
     <header>
         <!-- <div>
          <img src="img\60231491_2403011963082702_4623641473654007175_n (1).jpg">
@@ -148,14 +173,14 @@
             
             <div id="contato">
 
-                <div> 
+                <div id="imgDiv"> 
                     <div class="imagem">
                         <img src="img\reshot-icon-share-YELUB6JNHT.svg">
                         </div>
                     <h2>Contato</h2>
                 </div> 
 
-            <div id="infoCont">
+             <div id="infoCont">
                 <div>
                 <h3>Telefone</h3>
                 <p>(51)9 9240-1864</p>
