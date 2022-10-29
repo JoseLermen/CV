@@ -1,166 +1,246 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;700&display=swap" rel="stylesheet">
-        <title>CV - José Arthur Salgueiro Lermen</title>
-    </head>
 
-    
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="boot.css">
+
+    <title>CV - José Arthur Salgueiro Lermen</title>
+</head>
+
+
 <div id="myNav" class="overlay">
 
-   
+
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  
+
     <!-- Overlay content -->
     <div class="overlay-content">
-        
+
         <a class="intro" onclick="closeNav()">Início</a>
         <a class="desc" onclick="closeNav()">Descrição</a>
         <a class="edu">Educação</a>
         <a class="habi">Habilidades</a>
         <a class="exp">Experiências</a>
         <a class="cont">Contato</a>
-        
-    </div>
-  
-  </div>
-  
-  <!-- Use any element to open/show the overlay navigation menu -->
-  <span onclick="openNav()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg></span>
 
-    <header>
-        <!-- <div>
+    </div>
+
+</div>
+
+
+<span onclick="openNav()"><svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-caret-down-fill"
+        viewBox="0 0 16 16">
+        <path
+            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+    </svg></span>
+
+<header>
+    <!-- <div>
          <img src="img\60231491_2403011963082702_4623641473654007175_n (1).jpg">
      </div>-->
 
-         <nav>
-             <ul>
-                 <li id="intro">Início</li>
-                 <li id="desc">Descrição</li>
-                 <li id="edu">Educação</li>
-                 <li id="habi">Habilidades</li>
-                 <li id="exp">Experiências</li>
-                 <li id="cont">Contato</li>
-             </ul>
-         </nav>
-     </header>
-  
-    <body>
-        
-       
-        <main>
-            <div id="inicio">
+    <nav>
+        <ul>
+            <li id="intro">Início</li>
+            <li id="desc">Descrição</li>
+            <li id="edu">Educação</li>
+            <li id="habi">Habilidades</li>
+            <li id="exp">Experiências</li>
+            <li id="cont">Contato</li>
+        </ul>
+    </nav>
+</header>
 
-                <div>
-                    <h1>Olá!</h1>
-               <!-- <img src="img\60231491_2403011963082702_4623641473654007175_n (1).jpg">-->
-                </div>
+<body>
 
-                <div id="apresentacao">
+
+    <main>
+        <div id="inicio">
+
+            <div>
+                <h1>Olá!</h1>
+                <!-- <img src="img\60231491_2403011963082702_4623641473654007175_n (1).jpg">-->
+            </div>
+
+            <div id="apresentacao">
                 <h3>Meu nome é José Arthur Lermen</h3>
                 <p>Designer e Programador</p>
-                </div>
-
-
             </div>
 
-            <div id="descricao">
+
+        </div>
+
+        <div id="descricao">
+            <div class="imagem">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                </svg>
+            </div>
+            <h2>Sobre Mim</h2>
+
+            <p>Sou designer gráfico e programador que ama a criatividade e lógica proporcionada pelas áreas.
+                Tenho comprometimento com os trabalhos entregues a mim, buscando sempre
+                o resultado com melhor qualidade.</p>
+        </div>
+
+        <div id="educacao">
+
+
+            <div>
                 <div class="imagem">
-                <img src="img\reshot-icon-users-MNKYRH6PU8.svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-mortarboard-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z" />
+                        <path
+                            d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z" />
+                    </svg>
                 </div>
-                <h2>Sobre Mim</h2>
-                
-                <p>Sou um designer gráfico e programador que ama a criatividade e lógica proporcionada pelas áreas. 
-                    Terei comprometimento com os trabalhos entregues a mim, buscando sempre
-                    o resultado com melhor qualidade.</p>
+                <h2>Educação</h2>
             </div>
-            
-            <div id="educacao">
 
-
-                <div> 
-                    <div class="imagem">
-                        <img src="img\reshot-icon-agenda-BNAF6XYTZK.svg">
-                        </div>
-                    <h2>Educação</h2>
-                </div> 
-            
             <div id="infoEdu">
 
-                
+
 
                 <div>
                     <h3>Faculdades</h3>
                     <p>Uniritter - Design Gráfico (2016 - 2020)</p>
                     <p>Fadergs - Ciência da Computação (2022 - Atual)</p>
-                
-                </div>   
+
+                </div>
 
                 <div>
                     <h3>Cursos</h3>
                     <p>Startse - *carga horaria</p>
-                
-                </div>  
-            </div>  
-            
+
+                </div>
             </div>
-            
-            <div id="habilidades">
-                
-                <div> 
-                    <div class="imagem">
-                        <img src="img\reshot-icon-settings-NMBQXFGAZK.svg">
-                        </div>
-                    <h2>Habilidades</h2>
-                </div> 
+
+        </div>
+
+        <div id="habilidades">
+
+            <div>
+                <div class="imagem">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+                    </svg>
+                </div>
+                <h2>Habilidades</h2>
+            </div>
 
 
             <div id="infoHabi">
-                <div>
-                        
-                    <h3>Programas</h3>
-                    <p>Adobe Illustrator</p>
-                    <p>Adobe Premiere</p>
-                    <p>Adobe Photoshop</p>
-                    <p>Adobe Indesign</p>
-                    <p>Adobe After Effects</p>
-                    
+
+
+                <div class="slideshow-container">
+                    <h3>Hard Skills</h3>
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <h4>Programas</h4>
+                        <p>Adobe Illustrator</p>
+                        <p>Adobe Premiere</p>
+                        <p>Adobe Photoshop</p>
+                        <p>Adobe Indesign</p>
+                        <p>Adobe After Effects</p>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <h4>Programação</h4>
+                        <p>C</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <br>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <h4>Idiomas</h4>
+                        <p>Inglês - Fluente</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
 
-                <div>
-                    
-                    <h3>Programação</h3>
-                    <p>C</p>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-        
+                <div class="slideshow-container">
+                    <h3>Hard Skills</h3>
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides1 fade">
+                        <h4>Programas</h4>
+                        <p>Adobe Illustrator</p>
+                        <p>Adobe Premiere</p>
+                        <p>Adobe Photoshop</p>
+                        <p>Adobe Indesign</p>
+                        <p>Adobe After Effects</p>
+                    </div>
+
+                    <div class="mySlides1 fade">
+                        <h4>Programação</h4>
+                        <p>C</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <br>
+                    </div>
+
+                    <div class="mySlides1 fade">
+                        <h4>Idiomas</h4>
+                        <p>Inglês - Fluente</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+
+
+                    <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides1(1)">&#10095;</a>
                 </div>
-            </div>
+
+
+
+
+
+
 
             </div>
-            
-            <div id="experiencias">
-                
+
+        </div>
+
+        <div id="experiencias">
+
             <div>
 
-                <div> 
+                <div>
                     <div class="imagem">
-                        <img src="img\reshot-icon-star-GC6DYT5UXL.svg">
-                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-star-fill"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                    </div>
                     <h2>Experiências</h2>
-                </div> 
+                </div>
 
                 <div id="infoExp">
-                <h3>Estágio</h3>
-                    <p>SDECT/SEDETUR - Secretaria de Desenvolvimento Econômico, Ciência e  Tecnologia/Turismo (Fevereiro/2018 - Abril/2019)</p>
+                    <h3>Estágio</h3>
+                    <p>SDECT/SEDETUR - Secretaria de Desenvolvimento Econômico, Ciência e Tecnologia/Turismo
+                        (Fevereiro/2018 - Abril/2019)</p>
                     <p>SJCDH - Secretaria de Justiça, Cidadania e Direitos Humanos (Julho/2019 - Outubro/2019)</p>
                 </div>
                 <div>
@@ -169,49 +249,54 @@
                 </div>
 
             </div>
-            </div>
-            
-            <div id="contato">
+        </div>
 
-                <div id="imgDiv"> 
-                    <div class="imagem">
-                        <img src="img\reshot-icon-share-YELUB6JNHT.svg">
-                        </div>
-                    <h2>Contato</h2>
-                </div> 
+        <div id="contato">
 
-             <div id="infoCont">
-                <div>
-                <h3>Telefone</h3>
-                <p>(51)9 9240-1864</p>
+            <div id="imgDiv">
+                <div class="imagem">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-link" viewBox="0 0 16 16">
+                        <path
+                            d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z" />
+                        <path
+                            d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z" />
+                    </svg>
                 </div>
-
-                <div>
-                <h3>E-mail</h3>
-                <p>lermen29@gmail.com</p>
-                </div>
-
-                <div>
-                <h3>Behance</h3>
-                <p>behance.net/jlermen4187</p>
-                </div>
-
-
-                <div>
-                <h3>GitHub</h3>
-                <p>**link github**</p>
-                </div>
-
+                <h2>Contato</h2>
             </div>
 
+            <div id="infoCont">
+                <div>
+                    <h3>Telefone</h3>
+                    <p>(51)9 9240-1864</p>
+                </div>
+
+                <div>
+                    <h3>E-mail</h3>
+                    <p>lermen29@gmail.com</p>
+                </div>
+
+                <div>
+                    <h3>Behance</h3>
+                    <p>behance.net/jlermen4187</p>
+                </div>
+
+
+                <div>
+                    <h3>GitHub</h3>
+                    <p>**link github**</p>
+                </div>
+
             </div>
 
-        </main>
+        </div>
 
-        <div id="border"></div>
+    </main>
 
-        <script src="script.js"></script>
-    </body>
+    <div id="border"></div>
+
+    <script src="script.js"></script>
+</body>
 
 
 
