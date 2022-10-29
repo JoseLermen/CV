@@ -9,7 +9,7 @@ const arr = [introdu, descricao, educacao, habilidades, experiencias, contato];
 
 
 
-function menuIntro(){
+function menuIntro() {
     introdu.style.display = 'grid';
     descricao.style.display = "none";
     educacao.style.display = "none";
@@ -19,7 +19,7 @@ function menuIntro(){
 }
 
 
-function menuDesc(){
+function menuDesc() {
     introdu.style.display = "none";
     descricao.style.display = "grid";
     educacao.style.display = "none";
@@ -28,7 +28,7 @@ function menuDesc(){
     contato.style.display = "none";
 }
 
-function menuEdu(){
+function menuEdu() {
     introdu.style.display = "none";
     descricao.style.display = "none";
     educacao.style.display = "grid";
@@ -37,7 +37,7 @@ function menuEdu(){
     contato.style.display = "none";
 }
 
-function menuHab(){
+function menuHab() {
     introdu.style.display = "none";
     descricao.style.display = "none";
     educacao.style.display = "none";
@@ -46,7 +46,7 @@ function menuHab(){
     contato.style.display = "none";
 }
 
-function menuExp(){
+function menuExp() {
     introdu.style.display = "none";
     descricao.style.display = "none";
     educacao.style.display = "none";
@@ -55,7 +55,7 @@ function menuExp(){
     contato.style.display = "none";
 }
 
-function menuCont(){
+function menuCont() {
     introdu.style.display = "none";
     descricao.style.display = "none";
     educacao.style.display = "none";
@@ -67,12 +67,12 @@ function menuCont(){
 /* Open */
 function openNav() {
     document.getElementById("myNav").style.height = "100%";
-  }
-  
-  /* Close */
-  function closeNav() {
+}
+
+/* Close */
+function closeNav() {
     document.getElementById("myNav").style.height = "0%";
-  }
+}
 
 
 const menu1 = document.getElementById("intro");
@@ -113,3 +113,56 @@ mobile4.addEventListener("click", menuHab);
 mobile5.addEventListener("click", menuExp);
 
 mobile6.addEventListener("click", menuCont);
+
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+
+}
+
+let slideIndex1 = 1;
+showSlides1(slideIndex1);
+
+// Next/previous controls
+function plusSlides1(n) {
+    showSlides1(slideIndex1 += n);
+}
+
+// Thumbnail image controls
+function currentSlide1(n) {
+    showSlides1(slideIndex1 = n);
+}
+
+function showSlides1(n) {
+    let i;
+    let slides1 = document.getElementsByClassName("mySlides1");
+    if (n > slides1.length) { slideIndex1 = 1 }
+    if (n < 1) { slideIndex1 = slides1.length }
+    for (i = 0; i < slides1.length; i++) {
+        slides1[i].style.display = "none";
+    }
+
+    slides1[slideIndex1 - 1].style.display = "block";
+
+}
