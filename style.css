@@ -74,6 +74,12 @@ svg {
   margin: auto;
 }
 
+h1 {
+  font-size: 20vmin;
+  color: #e8aa42;
+  margin: 20% 0;
+}
+
 h2 {
   text-align: center;
   font-size: 5vmin;
@@ -82,7 +88,8 @@ h2 {
 }
 
 h3 {
-  font-size: 2vmin;
+  font-size: 3vmin;
+  color: #06283d;
 }
 
 p {
@@ -156,27 +163,24 @@ header img {
   text-align: center;
 }
 
-#inicio h1 {
-  font-size: 20vmin;
-  color: #e8aa42;
-}
-
 #inicio #apresentacao {
+  display: inline-block;
   margin: 0;
   position: relative;
   bottom: 90%;
 }
 
-#inicio h2 {
-  color: #e8aa42;
+#apresentacao p {
+  font-size: 2vmin;
+  line-height: 3.2vmin;
+  margin: auto;
 }
 
-#inicio p {
-  color: #b2b2b2;
-}
-
-#inicio #apresentacao {
-  display: inline-block;
+#apresentacao h2 {
+  text-align: center;
+  font-size: 3vmin;
+  color: #06283d;
+  margin: 1% 0;
 }
 
 #descricao {
@@ -205,7 +209,7 @@ header img {
   display: grid;
   grid-template-columns: 50% 50%;
   margin: auto;
-  width: 60%;
+  width: 80%;
 }
 
 #habilidades {
@@ -219,11 +223,12 @@ header img {
 }
 
 #infoHabi {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  
   margin: auto;
   width: 60%;
 }
+
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -231,12 +236,21 @@ header img {
   margin: auto;
 }
 
-.mySlides {
-  margin-bottom: 8%;
+.slideshow-container_Media {
+  display: none;
+  width: auto;
+  margin: auto;
 }
 
-.mySlides1 {
-  margin-bottom: 8%;
+.mySlides .infoSection{
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.mySlides {
+  margin-bottom: 5%;
 }
 
 .prev,
@@ -517,8 +531,11 @@ header img {
   }
 }
 
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+}
 
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+}
 
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+}
